@@ -6,12 +6,39 @@
     box-sizing: border-box;
 }
 
-.navegador {
-    margin-bottom: 50px;
+
+/* header */
+
+.iconaHeader{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 150px;
 }
+
+.iconaHeader > p{
+    margin-left: 0.5em;
+    color: rgb(0, 0, 0);
+}
+.navegador {
+    align-items: center;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+
+.grid-nav{
+    margin-bottom: 50px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+}
+
 .navegador li {
+    align-items: flex-end;
     list-style: none;
-    float: left;
+    text-align: center;
     color: rgb(93, 95, 121);
 }
 .navegador li a {
@@ -25,10 +52,10 @@
     color: rgb(245, 157, 35);
 }
 
-/* header */
-.iconaHeader{
-    display: inline-block;
+.iconaHeader {
+
 }
+
 
 /*-------------------------------------*/
 
@@ -40,6 +67,9 @@
     text-align: center;
 }
 
+.footer > p{
+    margin-bottom: 10px;
+}
 
 
 /* ----------------------------------------------- */
@@ -48,13 +78,59 @@
 
 .contenidorCapçalera {
     margin-top: 30 px;
+    margin-left: 150px;
+    margin-right: 150px;
     background-color: rgb(245, 157, 35);
+    display: flex;
+    align-items: flex-end;
 }
 
 .contenidorReferentsC{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#contenidorMolecula {
+    background-color: rgb(240, 93, 80);
+}
+
+#iconaMolecula {
+
+}
+
+.contenidorTextCapçalera{
+    margin-left: 25px;
+}
+
+.contenidorTextCapçalera > h1{
+    margin-top: 0px;
+}
+
+.contenidorReferentsC{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contenidorReferentsC > h2{
+    text-align: center;
+}
+
+.contenidorReferentsC > img{
+    width: 180px;
+    height: 150px;
+}
+
+#linkLlistaRef{
+    text-align: center;
+    color: rgb(245, 157, 35);
+    text-decoration: none;
+}
+
+#linkLlistaRef:hover {
+    color: rgb(93, 95, 121);
+    text-decoration: none;
+}
+
 
 /*-------------------------------------------------*/
 
