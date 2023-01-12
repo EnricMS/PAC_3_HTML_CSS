@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+.negreta {
+    font-weight: bold;
+}
 
 /* header */
 
@@ -19,20 +22,17 @@
     margin-left: 0.5em;
     color: rgb(0, 0, 0);
 }
-.navegador {
-    align-items: center;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 50px;
+
+.titolHeader{
+    display: flex;
+    align-items: flex-end;
 }
 
 .grid-nav{
     margin-bottom: 50px;
-    
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 80px;
+    column-gap: 10px;
 }
 
 .navegador li {
@@ -71,7 +71,31 @@
     margin-bottom: 10px;
 }
 
+.iconaFooter {
+    margin-top: 20px;
+    width: 90px;
+    height: auto;
+}
 
+.buttonSub{
+    color: white;
+    background-color: rgb(240, 93, 80);
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.contenidorPolitiquesFooter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0px;
+    margin-bottom: 30;
+}
 /* ----------------------------------------------- */
 
 /* INDEX*/
@@ -121,7 +145,7 @@
 }
 
 #linkLlistaRef{
-    text-align: center;
+    align-items: center;
     color: rgb(245, 157, 35);
     text-decoration: none;
 }
@@ -131,22 +155,108 @@
     text-decoration: none;
 }
 
+.grid-cientifiques-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+
+}
+
+.grid-cientifiques{
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.imatgeCientifiquesIndex{
+    width: 200px;
+    height: auto;
+}
+
+.grid-cientifiques p{
+    text-align: left;
+}
+
+.titolCientífiquesIndex{
+    color: gray;
+    font-size: 12px;
+}
+
+.nomCientífiques{
+    font-size: 16px;
+}
+
+.accept-btn {
+    position: relative;
+    height: 15px;
+    width: 15px;    
+}
+
 
 /*-------------------------------------------------*/
 
 /* referents*/
 
+#containerGridReferents{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
 
 /* ----------------------------------------------- */
 
 
 /* 11 de febrer */
+#containerGris11F{
+    background-color: rgb(227, 228, 230);
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%;
+}
 
+#main-11F{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#titol-11F {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#videoYT{
+
+}
 
 /* ----------------------------------------------- */
 
 
 /* iniciatives */
 
+#titol-Iniciatives{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.containerIniciatives{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.subContainerIniciatives{
+    margin-top: 30px;
+}
+
+.containerIniciatives > h2{
+    font-weight: bold;
+}
 
 /* ----------------------------------------------- */
