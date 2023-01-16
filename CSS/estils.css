@@ -4,12 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 .negreta {
     font-weight: bold;
 }
 
+.linkRedireccio{
+    color: rgb(245, 157, 35);
+    text-decoration: none;
+}
+
+.linkRedireccio:hover {
+    color: rgb(93, 95, 121);
+    text-decoration: none;
+}
+
+.contenidorMain {
+    margin-bottom: 30px;
+}
 /* header */
 
 .iconaHeader{
@@ -30,8 +44,7 @@
 
 .grid-nav{
     margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
     column-gap: 10px;
 }
 
@@ -52,12 +65,13 @@
     color: rgb(245, 157, 35);
 }
 
-.iconaHeader {
-
+.logoCT {
+    width: 60px;
+    height: auto;
 }
 
 
-/*-------------------------------------*/
+/*---------------------------------------------------------------*/
 
 /* footer */
 
@@ -90,11 +104,26 @@
     border-radius: 5%;
 }
 
+.input-email{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .contenidorPolitiquesFooter{
     display: grid;
     grid-template-columns: auto auto auto;
+    text-decoration: none;
     column-gap: 0px;
-    margin-bottom: 30;
+    color: white;
+}
+
+.PolitiquesFooter{
+
 }
 /* ----------------------------------------------- */
 
@@ -116,14 +145,21 @@
 
 #contenidorMolecula {
     background-color: rgb(240, 93, 80);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #iconaMolecula {
-
+    width: 150px;
+    height: auto;
 }
 
 .contenidorTextCapçalera{
     margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 30px;
 }
 
 .contenidorTextCapçalera > h1{
@@ -144,16 +180,6 @@
     height: 150px;
 }
 
-#linkLlistaRef{
-    align-items: center;
-    color: rgb(245, 157, 35);
-    text-decoration: none;
-}
-
-#linkLlistaRef:hover {
-    color: rgb(93, 95, 121);
-    text-decoration: none;
-}
 
 .grid-cientifiques-container{
     display: grid;
@@ -198,11 +224,17 @@
 /*-------------------------------------------------*/
 
 /* referents*/
-
+/*
 #containerGridReferents{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+*/
+#navegadorReferents {
+    margin-right: 0px;
+    padding-right: 0px;
+    display: flex;
 }
 
 /* ----------------------------------------------- */
@@ -231,8 +263,28 @@
     margin-bottom: 20px;
 }
 
-#videoYT{
+.videoYT {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+}
 
+.videoYT-settings {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    border: 0px;
+}
+
+.videoYT-settings {
+    content: "";
+    display: block;
+    padding-top: 55%;
 }
 
 /* ----------------------------------------------- */
@@ -259,4 +311,11 @@
     font-weight: bold;
 }
 
+.quadratTaronja {
+    display: ;
+    width: 10px;           
+    height: 10px;          
+    background: rgb(240, 93, 80);        
+    border: none; 
+  }
 /* ----------------------------------------------- */
