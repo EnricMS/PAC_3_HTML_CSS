@@ -22,7 +22,7 @@ flex-direction: column;
     font-family: 'Inter', sans-serif;
 }
 
-.lineheight{
+.lineheight {
     line-height: 25px;
 }
 
@@ -46,7 +46,10 @@ flex-direction: column;
     text-decoration: none;
 }
 
-.contenidorMain {}
+.contenidorMain {
+
+    margin: 10px 20% 60px 20%;
+}
 
 /* header */
 
@@ -129,7 +132,7 @@ flex-direction: column;
     text-align: center;
     width: 100%;
     position: absolute;
-    
+
 
 }
 
@@ -310,6 +313,25 @@ flex-direction: column;
     font-size: xx-large;
 }
 
+.contenidorSeccioReferents{
+    display: flex;
+    
+    align-items: center;
+}
+
+.containerCientifiquesReferents{
+    width: 300px;
+}
+.containerCientifiquesReferents > p{
+    width: max-content;
+}
+
+.infoCintifiquesReferents{
+    margin-left: 15px;
+}
+
+
+
 /* ----------------------------------------------- */
 
 
@@ -332,10 +354,10 @@ flex-direction: column;
     margin-left: 25%;
     margin-right: 25%;
     color: rgb(93, 95, 121);
-    
+
 }
 
-#containerGris11F{
+#containerGris11F {
     color: rgb(0, 0, 0);
 }
 
@@ -345,18 +367,27 @@ flex-direction: column;
     color: rgb(0, 0, 0);
 }
 
-#subtitol-11F{
+#subtitol-11F {
     font-weight: 700;
+}
+
+#contenidorONU {
+    display: flex;
+    align-items: flex-end;
 }
 
 #guioVermell {
     width: 30px;
     height: 3px;
     background: rgb(240, 93, 80);
+    margin-bottom: 10px;
+    margin-right: 5px;
     border: none;
 }
 
-.videoYT {
+#videoYT {
+    margin-top: 20px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -364,10 +395,7 @@ flex-direction: column;
 
 }
 
-.videoYT-settings {
-  
-   
-}
+#videoYT-settings {}
 
 
 /* ----------------------------------------------- */
@@ -388,18 +416,28 @@ flex-direction: column;
 
 .subContainerIniciatives {
     margin-top: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
 }
 
 .containerIniciatives>h2 {
     font-weight: bold;
 }
 
+.seccioIniciativa{
+    width: 99%;
+}
+
 .quadratTaronja {
     /* display: ; */
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: rgb(240, 93, 80);
     border: none;
+    margin-right: 5px;
 }
 
 /* ----------------------------------------------- */
