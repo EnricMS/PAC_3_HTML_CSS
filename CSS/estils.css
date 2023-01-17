@@ -34,9 +34,7 @@ flex-direction: column;
     font-size: smaller;
 }
 
-.margin-bot {
-    margin-bottom: 20px;
-}
+
 
 .linkRedireccio {
     color: rgb(245, 157, 35);
@@ -55,7 +53,7 @@ flex-direction: column;
 .iconaHeader {
     display: flex;
     align-items: flex-end;
-    margin-left: 30%;
+    margin-left: 18%;
     margin-top: 20px;
 }
 
@@ -74,7 +72,7 @@ flex-direction: column;
 
     display: flex;
     column-gap: 10px;
-    margin-right: 30%;
+    margin-right: 9%;
 }
 
 .grid-item {
@@ -131,7 +129,8 @@ flex-direction: column;
     text-align: center;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    
+
 }
 
 .footer>p {
@@ -139,7 +138,8 @@ flex-direction: column;
 }
 
 .iconaFooter {
-    margin-top: 20px;
+    margin-top: 45px;
+    margin-bottom: 5px;
     width: 90px;
     height: auto;
 }
@@ -172,9 +172,8 @@ flex-direction: column;
     grid-template-columns: auto auto auto;
     column-gap: 0px;
     margin-bottom: 30px;
-    margin-right: 40%;
-    margin-left: 40%;
-
+    margin-right: 38%;
+    margin-left: 38%;
 }
 
 .contenidor-AcceptarDades {
@@ -194,10 +193,10 @@ flex-direction: column;
 /* INDEX*/
 
 .contenidorCapçalera {
-    margin-top: 30px;
+    margin-top: 65px;
     margin-bottom: 40px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 18%;
+    margin-right: 18%;
     background-color: rgb(245, 157, 35);
     display: flex;
     align-items: flex-end;
@@ -206,7 +205,10 @@ flex-direction: column;
 
 .contenidorReferentsC {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    margin-left: 18%;
+    margin-right: 18%;
+
 }
 
 #contenidorMolecula {
@@ -230,13 +232,6 @@ flex-direction: column;
     padding-bottom: 5%;
 }
 
-.contenidorReferentsC {
-    margin-left: 30%;
-    /* Passar a %? */
-    margin-right: 30%;
-    /* Passar a %? */
-}
-
 .contenidorReferentsC>h2 {
     text-align: center;
 }
@@ -254,6 +249,7 @@ flex-direction: column;
 
 .grid-cientifiques-container {
     display: grid;
+    justify-content: space-between;
     grid-template-columns: auto auto auto auto;
 }
 
@@ -265,7 +261,8 @@ flex-direction: column;
 }
 
 .imatgeCientifiquesIndex {
-    width: 200px;
+    width: 275px;
+
     /* Passar a %? */
     height: auto;
 }
@@ -332,8 +329,8 @@ flex-direction: column;
 }
 
 #main-11F {
-    margin-left: 31%;
-    margin-right: 32%;
+    margin-left: 25%;
+    margin-right: 25%;
     color: rgb(93, 95, 121);
     
 }
@@ -361,7 +358,9 @@ flex-direction: column;
 
 .videoYT {
 
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 
 }
