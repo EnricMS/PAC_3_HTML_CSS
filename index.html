@@ -17,29 +17,30 @@
 </head>
 
 <body>
-  <header>
-    <div class="iconaHeader">
-      <div>
-        <img class="logoCT" src="img/logo-ciencia-tecnologia.svg" />
-        <p class="titolHeader">Ciència i tecnologia</p>
+  <div class="contenidor-Web">
+    <header>
+      <div class="contenidorHeader">
+        <div class="iconaHeader">
+          <img class="logoCT" src="img/logo-ciencia-tecnologia.svg" />
+          <p class="titolHeader">Ciència i tecnologia</p>
+        
+        <div class="navegador">
+          <nav>
+            <ul class="grid-nav">
+              <div class="grid-item">
+                <li><a href="referents.html">Referents científiques</a></li>
+              </div>
+              <div class="grid-item">
+                <li><a href="11-de-febrer.html">11 de febrer</a></li>
+              </div>
+              <div class="grid-item">
+                <li><a href="iniciatives.html">Iniciatives</a></li>
+              </div>
+            </ul>
+          </nav>
+        </div></div>
       </div>
-      <div class="navegador">
-        <nav>
-          <ul class="grid-nav">
-            <div class="grid-item">
-              <li><a href="referents.html">Referents científiques</a></li>
-            </div>
-            <div class="grid-item">
-              <li><a href="11-de-febrer.html">11 de febrer</a></li>
-            </div>
-            <div class="grid-item">
-              <li><a href="iniciatives.html">Iniciatives</a></li>
-            </div>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+    </header>
 
 
     <div class="contenidorCapçalera">
@@ -57,65 +58,67 @@
         </p>
       </div>
     </div>
-<main class="contenidorMain">
-    <div class="contenidorReferentsC">
-      <h2>Referents científiques</h2>
-      <!-- enllaç taronja amb fletxa per veure tota la llista -->
-      <a class="linkRedireccio" href="referents.html">Vegeu tota la llista</a>
-      <div class="grid-cientifiques-container">
-        <div class="grid-cientifiques">
-          <img class="imatgeCientifiquesIndex" src="img/01-ada-lovelace.jpg">
-          <p class="titolCientífiquesIndex">Programació</p>
-          <p class="nomCientífiques">Ada Lovelace (1815-1852)</p>
-        </div>
-        <div class="grid-cientifiques">
-          <img class="imatgeCientifiquesIndex" src="img/02-marie-curie.jpg">
-          <p class="titolCientífiquesIndex">Física i química</p>
-          <p class="nomCientífiques">Marie Curie (1867-1934)</p>
-        </div>
-        <div class="grid-cientifiques">
-          <img class="imatgeCientifiquesIndex" src="img/03-chien-shiung-wu.jpg">
-          <p class="titolCientífiquesIndex">Física nuclear</p>
-          <p class="nomCientífiques">Chien-Shiung-Wu (1912-1997)</p>
-        </div>
-        <div class="grid-cientifiques">
-          <img class="imatgeCientifiquesIndex" src="img/04-hedy-lamarr.jpg">
-          <p class="titolCientífiquesIndex">Enginyeria de telecomunicacions</p>
-          <p class="nomCientífiques">Hedy Lamarr (1914-2000)</p>
+    <main class="contenidorMain">
+      <div class="contenidorReferentsC">
+        <h2 class="negreta">Referents científiques</h2>
+        <a class="linkRedireccio" id="enllaç-llista" href="referents.html">Vegeu tota la llista --></a>
+        <div class="grid-cientifiques-container">
+          <div class="grid-cientifiques">
+            <img class="imatgeCientifiquesIndex" src="img/01-ada-lovelace.jpg">
+            <p class="titolCientífiquesIndex">Programació</p>
+            <p class="nomCientífiques">Ada Lovelace (1815-1852)</p>
+          </div>
+          <div class="grid-cientifiques">
+            <img class="imatgeCientifiquesIndex" src="img/02-marie-curie.jpg">
+            <p class="titolCientífiquesIndex">Física i química</p>
+            <p class="nomCientífiques">Marie Curie (1867-1934)</p>
+          </div>
+          <div class="grid-cientifiques">
+            <img class="imatgeCientifiquesIndex" src="img/03-chien-shiung-wu.jpg">
+            <p class="titolCientífiquesIndex">Física nuclear</p>
+            <p class="nomCientífiques">Chien-Shiung-Wu (1912-1997)</p>
+          </div>
+          <div class="grid-cientifiques">
+            <img class="imatgeCientifiquesIndex" src="img/04-hedy-lamarr.jpg">
+            <p class="titolCientífiquesIndex">Enginyeria de telecomunicacions</p>
+            <p class="nomCientífiques">Hedy Lamarr (1914-2000)</p>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer class="footer">
-    <img class="iconaFooter" src="img/logo-ciencia-tecnologia-white.svg">
-    <p>hola@cienciaitecnologia.org</p>
-    <p>Sempre al dia amb el nostre butlletí de notícies</p>
-    <input type="text" placeholder="Escriu el teu e-mail" class="input-email">
-    <br>
-    <input type="button" class="accept-btn" name="AcceptarPolitica" value="" required> Accepto la política de protecció
-    de dades
-    <br>
-    <button type="submit" class="buttonSub">SUBSCRIU-ME</button><br>
-    <div class="contenidorPolitiquesFooter">
-      <div class="PolitiquesFooter">
-        <a href="">Avís legal</a>
+    <footer class="footer">
+      <img class="iconaFooter" src="img/logo-ciencia-tecnologia-white.svg">
+      <p class="lletra-petita margin-bot">hola@cienciaitecnologia.org</p>
+      <p class="margin-bot">Sempre al dia amb el nostre butlletí de notícies</p>
+      <input type="text" placeholder="Escriu el teu e-mail" class="input-email">
+      <div class="contenidor-AcceptarDades">
+        <input type="button" class="accept-btn" name="AcceptarPolitica" value="" required> Accepto la política de
+        protecció de dades
       </div>
-      <div class="PolitiquesFooter">
-        <a href=""> Política de privacitat</a>
+      <button type="submit" class="buttonSub">SUBSCRIU-ME</button><br>
+      <div class="contenidorPolitiquesFooter">
+        <div class="PolitiquesFooter">
+          <a href="">Avís legal</a>
+        </div>
+        <div class="PolitiquesFooter">
+          <a href=""> Política de privacitat</a>
+        </div>
+        <div class="PolitiquesFooter">
+          <a href=""> Política de cookies</a>
+        </div>
       </div>
-      <div class="PolitiquesFooter">
-        <a href=""> Política de cookies</a>
+      <div class="lletra-petita">
+        <p>2022 © Ciència i tecnologia</p>
+        <p>Activitat realitzada per Enric Miralles i Selvi</p>
+        <p>
+          Informació elaborada a partir de la biblioguia Dones ciència i
+          tecnologia de la biblioteca de la UOC
+        </p>
+        <p class="margin-bot">Icona de la portada per flatart_icons – Flaticon</p>
       </div>
-    </div>
-    <p>2022 © Ciència i tecnologia</p>
-    <p>Activitat realitzada per Enric Miralles i Selvi</p>
-    <p>
-      Informació elaborada a partir de la biblioguia Dones ciència i
-      tecnologia de la biblioteca de la UOC
-    </p>
-    <p>Icona de la portada per flatart_icons – Flaticon</p>
-  </footer>
+    </footer>
+  </div>
 </body>
 
 </html>

@@ -18,34 +18,34 @@
 
 <body>
     <header>
-        <div class="iconaHeader">
-            <div>
+        <div class="contenidorHeader">
+            <div class="iconaHeader">
                 <img class="logoCT" src="img/logo-ciencia-tecnologia.svg" />
                 <p class="titolHeader">Ciència i tecnologia</p>
-            </div>
-            <div class="navegador">
-                <nav>
-                    <ul class="grid-nav">
-                        <div class="grid-item">
-                            <li><a href="referents.html">Referents científiques</a></li>
-                        </div>
-                        <div class="grid-item">
-                            <li><a href="11-de-febrer.html">11 de febrer</a></li>
-                        </div>
-                        <div class="grid-item">
-                            <li><a href="iniciatives.html">Iniciatives</a></li>
-                        </div>
-                    </ul>
-                </nav>
+
+                <div class="navegador">
+                    <nav>
+                        <ul class="grid-nav">
+                            <div class="grid-item">
+                                <li><a href="referents.html">Referents científiques</a></li>
+                            </div>
+                            <div class="grid-item">
+                                <li><a href="11-de-febrer.html">11 de febrer</a></li>
+                            </div>
+                            <div class="grid-item">
+                                <li><a href="iniciatives.html">Iniciatives</a></li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
-    <main class="contenidorMain" id="main-11F">
+    <main class="contenidorMain lineheight" id="main-11F">
         <div id="titol-11F">
             <h1>11 de febrer</h1>
-            <span class="negreta">
-                <p>Internacional de les Dones i les Nenes en Ciència</p>
-            </span>
+            <h2>Dia Internacional de les Dones i les Nenes en Ciència</h2>
+
         </div>
         <p><span class="negreta">El Dia Internacional de les Dones i les Nenes en la Ciència</span> va ser decidit l'any
             2015 per l'<span class="negreta">Assemblea General de les Nacions Unides</span> que en la Resolució
@@ -69,7 +69,7 @@
                 2%, respectivament, mentre que la probabilitat per als estudiants masculins és del 37%, 18% i 6%.
             </blockquote>
             <br>
-            <!-- Linea vermella -->
+            <div id="guioVermell"></div>
             <p>Organització de les Nacions Unides</p>
             <br>
         </div>
@@ -81,41 +81,43 @@
         <!-- Iframe video youtube las mujeres a la vanguardia + peu de foto -->
         <figure>
             <div id="videoYT">
-                <iframe class="videoYT-settings" width="540" height="220" src="https://www.youtube.com/watch?v=yHnzpMAahFs"></iframe>
+                <iframe class="videoYT-settings" width="540" height="220"
+                    src="https://www.youtube.com/watch?v=yHnzpMAahFs"></iframe>
                 <figcaption>Les dones a l'avantguarda dels descobriments científics</figcaption>
             </div>
         </figure>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <img class="iconaFooter" src="img/logo-ciencia-tecnologia-white.svg">
-        <p>hola@cienciaitecnologia.org</p>
-        <p>Sempre al dia amb el nostre butlletí de notícies</p>
+        <p class="lletra-petita margin-bot">hola@cienciaitecnologia.org</p>
+        <p class="margin-bot">Sempre al dia amb el nostre butlletí de notícies</p>
         <input type="text" placeholder="Escriu el teu e-mail" class="input-email">
-        <br>
-        <input type="button" class="accept-btn" name="AcceptarPolitica" value="" required> Accepto la política de
-        protecció
-        de dades
-        <br>
+        <div class="contenidor-AcceptarDades">
+          <input type="button" class="accept-btn" name="AcceptarPolitica" value="" required> Accepto la política de
+          protecció de dades
+        </div>
         <button type="submit" class="buttonSub">SUBSCRIU-ME</button><br>
         <div class="contenidorPolitiquesFooter">
-            <div class="grid-item">
-                <a href="">Avís legal</a>
-            </div>
-            <div class="grid-item">
-                <a href=""> Política de privacitat</a>
-            </div>
-            <div class="grid-item">
-                <a href=""> Política de cookies</a>
-            </div>
+          <div class="PolitiquesFooter">
+            <a href="">Avís legal</a>
+          </div>
+          <div class="PolitiquesFooter">
+            <a href=""> Política de privacitat</a>
+          </div>
+          <div class="PolitiquesFooter">
+            <a href=""> Política de cookies</a>
+          </div>
         </div>
-        <p>2022 © Ciència i tecnologia</p>
-        <p>Activitat realitzada per Enric Miralles i Selvi</p>
-        <p>
+        <div class="lletra-petita">
+          <p>2022 © Ciència i tecnologia</p>
+          <p>Activitat realitzada per Enric Miralles i Selvi</p>
+          <p>
             Informació elaborada a partir de la biblioguia Dones ciència i
             tecnologia de la biblioteca de la UOC
-        </p>
-        <p>Icona de la portada per flatart_icons – Flaticon</p>
-    </footer>
+          </p>
+          <p class="margin-bot">Icona de la portada per flatart_icons – Flaticon</p>
+        </div>
+      </footer> -->
 
 </body>
 
