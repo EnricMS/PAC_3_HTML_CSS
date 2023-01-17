@@ -357,7 +357,6 @@ flex-direction: column;
 }
 
 .videoYT {
-
     display: flex;
     flex-direction: column;
     align-items: center;
