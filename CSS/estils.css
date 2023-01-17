@@ -112,6 +112,7 @@ flex-direction: column;
         display: flex;
         column-gap: 10px;
         margin-right: 9%;
+        flex-direction: column;
     }
 
     .grid-item {
@@ -122,13 +123,7 @@ flex-direction: column;
         width: 70%;
     }
 
-    .navegador nav {
-        display: flex;
 
-        justify-content: flex-end;
-
-        align-items: flex-end;
-    }
 
     .navegador li {
         align-items: flex-end;
@@ -262,12 +257,6 @@ flex-direction: column;
 
 /* header */
 
-.iconaHeader {
-    display: flex;
-    align-items: flex-end;
-    margin-left: 18%;
-    margin-top: 20px;
-}
 
 .iconaHeader>p {
     margin-left: 10px;
@@ -294,13 +283,6 @@ flex-direction: column;
     width: 70%;
 }
 
-.navegador nav {
-    display: flex;
-
-    justify-content: flex-end;
-
-    align-items: flex-end;
-}
 
 .navegador li {
     align-items: flex-end;
