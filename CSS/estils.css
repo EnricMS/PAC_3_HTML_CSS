@@ -1,18 +1,33 @@
-/*
-@media (max-width: 767px){
+/* General */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-@media (min-width:768px) and (max-width: 990px){
-flex-direction: column;
+.lineheight {
+    line-height: 25px;
 }
 
-@media (min-width: 991px){
-    .contenidor-Web {
-        width: 100%;
-    }
+.negreta {
+    font-weight: 700;
 }
-*/
+
+.lletra-petita {
+    font-size: smaller;
+}
+
+.linkRedireccio {
+    color: rgb(245, 157, 35);
+    text-decoration: none;
+}
+
+.linkRedireccio:hover {
+    color: rgb(93, 95, 121);
+    text-decoration: none;
+}
 
 /* PC */
 @media screen and (min-width: 1024px) {
@@ -84,6 +99,170 @@ flex-direction: column;
 
 
     /*-----------------------------------*/
+
+    /* footer */
+
+    .footer {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+
+    .footer>p {
+        margin-bottom: 10px;
+    }
+
+    .iconaFooter {
+        margin-top: 45px;
+        margin-bottom: 5px;
+        width: 90px;
+        height: auto;
+    }
+
+    .buttonSub {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 93, 80);
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+
+    .input-email {
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contenidorPolitiquesFooter {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 0px;
+        margin-bottom: 30px;
+        margin-right: 38%;
+        margin-left: 38%;
+    }
+
+    .contenidor-AcceptarDades {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .PolitiquesFooter>a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    /* ----------------------------------------------- */
+
+    /* INDEX*/
+
+    .contenidorCapçalera {
+        margin-top: 65px;
+        margin-bottom: 40px;
+        margin-left: 18%;
+        margin-right: 18%;
+        background-color: rgb(245, 157, 35);
+        display: flex;
+        align-items: flex-end;
+        box-sizing: border-box;
+    }
+
+    .contenidorReferentsC {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 18%;
+        margin-right: 18%;
+
+    }
+
+    #contenidorMolecula {
+        background-color: rgb(240, 93, 80);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #iconaMolecula {
+        width: 200px;
+        height: auto;
+    }
+
+    .contenidorTextCapçalera {
+        margin-left: 3%;
+
+        margin-right: 3%;
+
+        padding-bottom: 5%;
+    }
+
+    .contenidorReferentsC>h2 {
+        text-align: center;
+    }
+
+
+
+    #enllaç-llista {
+        text-align: center;
+        display: block;
+    }
+
+    .grid-cientifiques-container {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 10px;
+    }
+
+    .grid-cientifiques {
+        padding-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .imatgeCientifiquesIndex {
+        width: 275px;
+
+        /* Passar a %? */
+        height: auto;
+    }
+
+    .grid-cientifiques p {
+        text-align: left;
+    }
+
+    .titolCientífiquesIndex {
+        color: rgb(93, 95, 121);
+        font-size: 12px;
+    }
+
+    .nomCientífiques {
+        font-size: 16px;
+    }
+
+    .accept-btn {
+        position: relative;
+        height: 15px;
+        width: 15px;
+    }
+
+
+    /*-------------------------------------------------*/
+
+
 }
 
 /* TABLET */
@@ -150,10 +329,176 @@ flex-direction: column;
 
 
     /*-----------------------------------*/
+
+    /* footer */
+
+    .footer {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+
+    .footer>p {
+        margin-bottom: 10px;
+    }
+
+    .iconaFooter {
+        margin-top: 45px;
+        margin-bottom: 5px;
+        width: 90px;
+        height: auto;
+    }
+
+    .buttonSub {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 93, 80);
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+
+    .input-email {
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contenidorPolitiquesFooter {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 0px;
+        margin-bottom: 30px;
+        margin-right: 38%;
+        margin-left: 38%;
+    }
+
+    .contenidor-AcceptarDades {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .PolitiquesFooter>a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    /* ----------------------------------------------- */
+
+    /* INDEX*/
+
+    .contenidorCapçalera {
+        margin-top: 65px;
+        margin-bottom: 40px;
+        margin-left: 18%;
+        margin-right: 18%;
+        background-color: rgb(245, 157, 35);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .contenidorReferentsC {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 18%;
+        margin-right: 18%;
+
+    }
+
+    #contenidorMolecula {
+        background-color: rgb(240, 93, 80);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #iconaMolecula {
+        width: 200px;
+        height: auto;
+    }
+
+    .contenidorTextCapçalera {
+        margin-left: 3%;
+
+        margin-right: 3%;
+
+        padding-bottom: 5%;
+    }
+
+    .contenidorReferentsC>h2 {
+        text-align: center;
+    }
+
+
+
+    #enllaç-llista {
+        text-align: center;
+        display: block;
+    }
+
+    .grid-cientifiques-container {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+    }
+
+    .grid-cientifiques {
+        padding-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .imatgeCientifiquesIndex {
+        width: 275px;
+
+        /* Passar a %? */
+        height: auto;
+    }
+
+    .grid-cientifiques p {
+        text-align: left;
+    }
+
+    .titolCientífiquesIndex {
+        color: rgb(93, 95, 121);
+        font-size: 12px;
+    }
+
+    .nomCientífiques {
+        font-size: 16px;
+    }
+
+    .accept-btn {
+        position: relative;
+        height: 15px;
+        width: 15px;
+    }
+
+
+    /*-------------------------------------------------*/
 }
 
+/* PHONE */
 @media screen and (max-width: 480px) {
-    /* PHONE */
     /* header */
 
     .iconaHeader {
@@ -161,6 +506,8 @@ flex-direction: column;
         align-items: flex-end;
         margin-left: 18%;
         margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .iconaHeader>p {
@@ -169,8 +516,6 @@ flex-direction: column;
     }
 
     .titolHeader {
-        display: flex;
-        align-items: flex-end;
         font-weight: 800;
     }
 
@@ -178,6 +523,7 @@ flex-direction: column;
         display: flex;
         column-gap: 10px;
         margin-right: 9%;
+        flex-direction: column;
     }
 
     .grid-item {
@@ -188,13 +534,7 @@ flex-direction: column;
         width: 70%;
     }
 
-    .navegador nav {
-        display: flex;
 
-        justify-content: flex-end;
-
-        align-items: flex-end;
-    }
 
     .navegador li {
         align-items: flex-end;
@@ -221,260 +561,188 @@ flex-direction: column;
 
 
     /*-----------------------------------*/
+
+    /* footer */
+
+    .footer {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+
+    .footer>p {
+        margin-bottom: 10px;
+    }
+
+    .iconaFooter {
+        margin-top: 45px;
+        margin-bottom: 5px;
+        width: 90px;
+        height: auto;
+    }
+
+    .buttonSub {
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 93, 80);
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+
+    .input-email {
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contenidorPolitiquesFooter {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        column-gap: 0px;
+        margin-bottom: 30px;
+        margin-right: 38%;
+        margin-left: 38%;
+    }
+
+    .contenidor-AcceptarDades {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .PolitiquesFooter>a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    /* ----------------------------------------------- */
+
+    /* INDEX*/
+
+    .contenidorCapçalera {
+        margin-top: 65px;
+        margin-bottom: 40px;
+        margin-left: 18%;
+        margin-right: 18%;
+        background-color: rgb(245, 157, 35);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .contenidorReferentsC {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 18%;
+        margin-right: 18%;
+
+    }
+
+    #contenidorMolecula {
+        background-color: rgb(240, 93, 80);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #iconaMolecula {
+        width: 200px;
+        height: auto;
+    }
+
+    .contenidorTextCapçalera {
+        margin-left: 3%;
+
+        margin-right: 3%;
+
+        padding-bottom: 5%;
+    }
+
+    .contenidorReferentsC>h2 {
+        text-align: center;
+    }
+
+
+
+    #enllaç-llista {
+        text-align: center;
+        display: block;
+    }
+
+    .grid-cientifiques-container {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto;
+        column-gap: 10px;
+    }
+
+    .grid-cientifiques {
+        padding-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .imatgeCientifiquesIndex {
+        width: 100%;
+
+        /* Passar a %? */
+        height: auto;
+    }
+
+    .grid-cientifiques p {
+        text-align: left;
+    }
+
+    .titolCientífiquesIndex {
+        color: rgb(93, 95, 121);
+        font-size: 12px;
+    }
+
+    .nomCientífiques {
+        font-size: 16px;
+    }
+
+    .accept-btn {
+        position: relative;
+        height: 15px;
+        width: 15px;
+    }
+
+
+    /*-------------------------------------------------*/
 }
 
 
-/* General */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-.lineheight {
-    line-height: 25px;
-}
-
-.negreta {
-    font-weight: 700;
-}
-
-.lletra-petita {
-    font-size: smaller;
-}
-
-.linkRedireccio {
-    color: rgb(245, 157, 35);
-    text-decoration: none;
-}
-
-.linkRedireccio:hover {
-    color: rgb(93, 95, 121);
-    text-decoration: none;
-}
 
 /* header */
 
 
-.iconaHeader>p {
-    margin-left: 10px;
-    color: rgb(0, 0, 0);
-}
 
-.titolHeader {
-    display: flex;
-    align-items: flex-end;
-    font-weight: 800;
-}
-
-.grid-nav {
-    display: flex;
-    column-gap: 10px;
-    margin-right: 9%;
-}
-
-.grid-item {
-    font-weight: 800;
-}
-
-.navegador {
-    width: 70%;
-}
-
-
-.navegador li {
-    align-items: flex-end;
-    list-style: none;
-    text-align: center;
-    color: rgb(93, 95, 121);
-}
-
-.navegador li a {
-    /*display: inline-block;*/
-    color: rgb(93, 95, 121);
-    text-align: right;
-    text-decoration: none;
-}
-
-.link:hover {
-    color: rgb(245, 157, 35);
-}
-
-.logoCT {
-    width: 60px;
-    height: auto;
-}
 
 
 /*-----------------------------------*/
 
-/* footer */
-
-.footer {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    width: 100%;
-    position: absolute;
-}
-
-.footer>p {
-    margin-bottom: 10px;
-}
-
-.iconaFooter {
-    margin-top: 45px;
-    margin-bottom: 5px;
-    width: 90px;
-    height: auto;
-}
-
-.buttonSub {
-    color: rgb(255, 255, 255);
-    background-color: rgb(240, 93, 80);
-    border: none;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    border-radius: 5%;
-}
-
-.input-email {
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-    text-align: center;
-    margin-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.contenidorPolitiquesFooter {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 0px;
-    margin-bottom: 30px;
-    margin-right: 38%;
-    margin-left: 38%;
-}
-
-.contenidor-AcceptarDades {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.PolitiquesFooter>a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-/* ----------------------------------------------- */
-
-/* INDEX*/
-
-.contenidorCapçalera {
-    margin-top: 65px;
-    margin-bottom: 40px;
-    margin-left: 18%;
-    margin-right: 18%;
-    background-color: rgb(245, 157, 35);
-    display: flex;
-    align-items: flex-end;
-    box-sizing: border-box;
-}
-
-.contenidorReferentsC {
-    margin-top: 30px;
-    margin-bottom: 100px;
-    margin-left: 18%;
-    margin-right: 18%;
-
-}
-
-#contenidorMolecula {
-    background-color: rgb(240, 93, 80);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#iconaMolecula {
-    width: 200px;
-    height: auto;
-}
-
-.contenidorTextCapçalera {
-    margin-left: 3%;
-    /* Passar a %? */
-    margin-right: 3%;
-    /* Passar a %? */
-    padding-bottom: 5%;
-}
-
-.contenidorReferentsC>h2 {
-    text-align: center;
-}
-
-.contenidorReferentsC>img {
-    width: 180px;
-    /* Passar a %? */
-    height: 150px;
-}
-
-#enllaç-llista {
-    text-align: center;
-    display: block;
-}
-
-.grid-cientifiques-container {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: auto auto auto auto;
-}
-
-.grid-cientifiques {
-    padding-top: 30px;
-    /* Passar a %? */
-    font-size: 30px;
-    text-align: center;
-}
-
-.imatgeCientifiquesIndex {
-    width: 275px;
-
-    /* Passar a %? */
-    height: auto;
-}
-
-.grid-cientifiques p {
-    text-align: left;
-}
-
-.titolCientífiquesIndex {
-    color: rgb(93, 95, 121);
-    font-size: 12px;
-}
-
-.nomCientífiques {
-    font-size: 16px;
-}
-
-.accept-btn {
-    position: relative;
-    height: 15px;
-    width: 15px;
-}
 
 
-/*-------------------------------------------------*/
+
 
 /* referents*/
 /*
@@ -530,6 +798,11 @@ flex-direction: column;
 
 #containerGris11F {
     color: rgb(0, 0, 0);
+}
+
+#containerGris11F > blockquote {
+    line-height: 25px;
+    font-size: large;
 }
 
 #titol-11F {
