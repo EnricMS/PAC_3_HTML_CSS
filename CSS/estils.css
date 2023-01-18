@@ -29,7 +29,7 @@
     text-decoration: none;
 }
 
-#a{
+#a {
     text-decoration: none;
 }
 
@@ -42,11 +42,11 @@
 
     /* header */
 
-    #headerDesktop{
+    #headerDesktop {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        
+
     }
 
     .iconaHeader {
@@ -68,7 +68,7 @@
         font-weight: 800;
     }
 
-    
+
 
     .grid-nav {
         display: flex;
@@ -163,12 +163,13 @@
     }
 
     .contenidorPolitiquesFooter {
-        display: grid;
+        display: flex;
         grid-template-columns: auto auto auto;
         column-gap: 0px;
         margin-bottom: 30px;
-        margin-right: 38%;
-        margin-left: 38%;
+
+        flex-direction: row;
+        justify-content: center;
     }
 
     .contenidor-AcceptarDades {
@@ -433,7 +434,7 @@
     }
 
     .navegador {
-      margin-top: 10px;
+        margin-top: 10px;
     }
 
     .navegador li a {
@@ -500,12 +501,13 @@
     }
 
     .contenidorPolitiquesFooter {
-        display: grid;
+        display: flex;
         grid-template-columns: auto auto auto;
         column-gap: 0px;
         margin-bottom: 30px;
-        margin-right: 38%;
-        margin-left: 38%;
+
+        flex-direction: row;
+        justify-content: center;
     }
 
     .contenidor-AcceptarDades {
@@ -768,7 +770,7 @@
     }
 
     .navegador {
-      margin-top: 10px;
+        margin-top: 10px;
     }
 
     .navegador li a {
@@ -834,12 +836,11 @@
     }
 
     .contenidorPolitiquesFooter {
-        display: grid;
+        display: flex;
         grid-template-rows: auto auto auto;
         column-gap: 0px;
         margin-bottom: 30px;
-        margin-right: 38%;
-        margin-left: 38%;
+        flex-direction: column;
     }
 
     .contenidor-AcceptarDades {
@@ -852,6 +853,11 @@
         text-decoration: none;
         margin-left: 8px;
         margin-right: 8px;
+    }
+
+    .PolitiquesFooter{
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
 
     /* ----------------------------------------------- */
@@ -1014,51 +1020,51 @@
 
     /* iniciatives */
 
-.contenidorMain {
-    margin-top: 50px;
-    margin-bottom: 60px;
-    line-height: 25px;
-}
+    .contenidorMain {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        line-height: 25px;
+    }
 
-#titol-Iniciatives {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+    #titol-Iniciatives {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-.containerIniciatives {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    .containerIniciatives {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-.subContainerIniciatives {
-    margin-top: 30px;
-    margin-right: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
+    .subContainerIniciatives {
+        margin-top: 30px;
+        margin-right: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
 
-}
+    }
 
-.containerIniciatives>h2 {
-    font-weight: bold;
-}
+    .containerIniciatives>h2 {
+        font-weight: bold;
+    }
 
-.seccioIniciativa {
-    width: 99%;
-    color: rgb(93, 95, 121);
-}
+    .seccioIniciativa {
+        width: 99%;
+        color: rgb(93, 95, 121);
+    }
 
-.quadratTaronja {
-    /* display: ; */
-    width: 15px;
-    height: 15px;
-    background: rgb(240, 93, 80);
-    border: none;
-    margin-right: 5px;
-}
+    .quadratTaronja {
+        /* display: ; */
+        width: 15px;
+        height: 15px;
+        background: rgb(240, 93, 80);
+        border: none;
+        margin-right: 5px;
+    }
 
-/* ----------------------------------------------- */
+    /* ----------------------------------------------- */
 }
 
 
