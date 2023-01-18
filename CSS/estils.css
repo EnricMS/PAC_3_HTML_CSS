@@ -19,6 +19,10 @@
     font-size: smaller;
 }
 
+.lletra-gran{
+    font-size: x-large;
+}
+
 .linkRedireccio {
     color: rgb(245, 157, 35);
     text-decoration: none;
@@ -1091,42 +1095,60 @@
 
 
 /* referents*/
-
-.contenidorMainRef{
+/*
+.contenidorBodyRef{
     display: flex;
     flex-direction: row;
+}*/
+
+.conenidorBodyReferents{
+    display: grid;
 }
 
 #containerGridReferents{
     display: grid;
     grid-template-columns: auto auto auto auto;
-
+    color: rgb(93, 95, 121);
 }
 
 #titol-referents {
-    margin-top: 15px;
+    margin-top: 80px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#navegadorReferents {
+.navegadorReferents {
     margin-right: 0px;
     padding-right: 0px;
     display: flex;
 }
 
+.navegadorReferents > ul{
+    list-style: none;
+}
+
 .numCientifiques {
     color: rgb(240, 93, 80);
     font-size: xx-large;
+    margin-bottom: 10px;
 }
-
-
 
 .contenidorSeccioReferents {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 50px;
     align-items: center;
+    margin-bottom: 60px;
+    row-gap: 30px;
+}
+
+.contenidorIndividualRef{
+    margin-bottom: 20px;
+}
+
+.imgRef{
+    width: 250px;
+    height: auto;
 }
 
 /* ----------------------------------------------- */
