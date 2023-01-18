@@ -29,6 +29,7 @@
     text-decoration: none;
 }
 
+
 /* PC */
 @media screen and (min-width: 1024px) {
 
@@ -235,8 +236,6 @@
 
     .imatgeCientifiquesIndex {
         width: 275px;
-
-        /* Passar a %? */
         height: auto;
     }
 
@@ -262,11 +261,122 @@
 
     /*-------------------------------------------------*/
 
+    /* 11 de febrer */
+    #containerGris11F {
+        background-color: rgb(227, 228, 230);
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        padding-left: 15px;
+        /* Passar a %? */
+        padding-right: 15px;
+        /* Passar a %? */
+        width: 80%;
+    }
+
+    #main-11F {
+        color: rgb(93, 95, 121);
+        margin: 50px 25% 60px 25%;
+    }
+
+    #containerGris11F {
+        color: rgb(0, 0, 0);
+    }
+
+    #containerGris11F>blockquote {
+        line-height: 25px;
+        font-size: large;
+    }
+
+    #titol-11F {
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    #subtitol-11F {
+        font-weight: 700;
+    }
+
+    #contenidorONU {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #guioVermell {
+        width: 30px;
+        height: 3px;
+        background: rgb(240, 93, 80);
+        margin-bottom: 10px;
+        margin-right: 5px;
+        border: none;
+    }
+
+    #videoYT {
+        margin-top: 20px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    /* ----------------------------------------------- */
+
+    /* iniciatives */
+
+    .contenidorMain {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        line-height: 25px;
+    }
+
+    #titol-Iniciatives {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .containerIniciatives {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .subContainerIniciatives {
+        margin-top: 30px;
+        margin-right: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+
+    }
+
+    .containerIniciatives>h2 {
+        font-weight: bold;
+    }
+
+    .seccioIniciativa {
+        width: 99%;
+    }
+
+    .quadratTaronja {
+        /* display: ; */
+        width: 15px;
+        height: 15px;
+        background: rgb(240, 93, 80);
+        border: none;
+        margin-right: 5px;
+    }
+
+    /* ----------------------------------------------- */
 
 }
 
 /* TABLET */
-@media screen and (min-width:415px) and (max-width: 1023px) {
+@media screen and (min-width:481px) and (max-width: 1023px) {
     /* header */
 
     .iconaHeader {
@@ -469,8 +579,6 @@
 
     .imatgeCientifiquesIndex {
         width: 275px;
-
-        /* Passar a %? */
         height: auto;
     }
 
@@ -495,6 +603,113 @@
 
 
     /*-------------------------------------------------*/
+
+    /* 11 de febrer */
+    #containerGris11F {
+        background-color: rgb(227, 228, 230);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    #main-11F {
+        color: rgb(93, 95, 121);
+        margin: 50px 15% 60px 15%;
+    }
+
+
+    #containerGris11F>blockquote {
+        line-height: 25px;
+        font-size: large;
+    }
+
+    #titol-11F {
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    #subtitol-11F {
+        font-weight: 700;
+    }
+
+    #contenidorONU {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #guioVermell {
+        width: 30px;
+        height: 3px;
+        background: rgb(240, 93, 80);
+        margin-bottom: 10px;
+        margin-right: 5px;
+        border: none;
+    }
+
+    #videoYT {
+        margin-top: 20px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    /* ----------------------------------------------- */
+
+    /* iniciatives */
+
+    .contenidorMain {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        line-height: 25px;
+    }
+
+    #titol-Iniciatives {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .containerIniciatives {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .subContainerIniciatives {
+        margin-top: 30px;
+        margin-right: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+
+    }
+
+    .containerIniciatives>h2 {
+        font-weight: bold;
+    }
+
+    .seccioIniciativa {
+        width: 99%;
+    }
+
+    .quadratTaronja {
+        /* display: ; */
+        width: 15px;
+        height: 15px;
+        background: rgb(240, 93, 80);
+        border: none;
+        margin-right: 5px;
+    }
+
+    /* ----------------------------------------------- */
+
 }
 
 /* PHONE */
@@ -701,8 +916,6 @@
 
     .imatgeCientifiquesIndex {
         width: 100%;
-
-        /* Passar a %? */
         height: auto;
     }
 
@@ -727,6 +940,113 @@
 
 
     /*-------------------------------------------------*/
+
+    /* 11 de febrer */
+    #containerGris11F {
+        background-color: rgb(227, 228, 230);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    #main-11F {
+        color: rgb(93, 95, 121);
+        margin: 50px 15% 60px 15%;
+    }
+
+
+    #containerGris11F>blockquote {
+        line-height: 25px;
+        font-size: large;
+    }
+
+    #titol-11F {
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    #subtitol-11F {
+        font-weight: 700;
+    }
+
+    #contenidorONU {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #guioVermell {
+        width: 30px;
+        height: 3px;
+        background: rgb(240, 93, 80);
+        margin-bottom: 10px;
+        margin-right: 5px;
+        border: none;
+    }
+
+    #videoYT {
+        margin-top: 20px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    /* ----------------------------------------------- */
+
+    /* iniciatives */
+
+.contenidorMain {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+
+#titol-Iniciatives {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.containerIniciatives {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.subContainerIniciatives {
+    margin-top: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+.containerIniciatives>h2 {
+    font-weight: bold;
+}
+
+.seccioIniciativa {
+    width: 99%;
+    color: rgb(93, 95, 121);
+}
+
+.quadratTaronja {
+    /* display: ; */
+    width: 15px;
+    height: 15px;
+    background: rgb(240, 93, 80);
+    border: none;
+    margin-right: 5px;
+}
+
+/* ----------------------------------------------- */
 }
 
 
@@ -771,117 +1091,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 50px;
-}
-
-/* ----------------------------------------------- */
-
-
-/* 11 de febrer */
-#containerGris11F {
-    background-color: rgb(227, 228, 230);
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    padding-top: 15px;
-    padding-left: 15px;
-    /* Passar a %? */
-    padding-right: 15px;
-    /* Passar a %? */
-    width: 80%;
-}
-
-#main-11F {
-    color: rgb(93, 95, 121);
-    margin: 10px 25% 60px 25%;
-}
-
-#containerGris11F {
-    color: rgb(0, 0, 0);
-}
-
-#containerGris11F > blockquote {
-    line-height: 25px;
-    font-size: large;
-}
-
-#titol-11F {
-    text-align: center;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-
-#subtitol-11F {
-    font-weight: 700;
-}
-
-#contenidorONU {
-    display: flex;
-    align-items: flex-end;
-}
-
-#guioVermell {
-    width: 30px;
-    height: 3px;
-    background: rgb(240, 93, 80);
-    margin-bottom: 10px;
-    margin-right: 5px;
-    border: none;
-}
-
-#videoYT {
-    margin-top: 20px;
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-}
-
-#videoYT-settings {}
-
-
-/* ----------------------------------------------- */
-
-
-/* iniciatives */
-
-#titol-Iniciatives {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.containerIniciatives {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.subContainerIniciatives {
-    margin-top: 30px;
-    margin-right: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-
-}
-
-.containerIniciatives>h2 {
-    font-weight: bold;
-}
-
-.seccioIniciativa {
-    width: 99%;
-}
-
-.quadratTaronja {
-    /* display: ; */
-    width: 15px;
-    height: 15px;
-    background: rgb(240, 93, 80);
-    border: none;
-    margin-right: 5px;
 }
 
 /* ----------------------------------------------- */
