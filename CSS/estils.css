@@ -822,7 +822,7 @@
 }
 
 .navegadorReferents {
-    width: 20%;
+    /* width: 20%; */
     margin-right: 0px;
     padding-right: 0px;
     display: flex;
@@ -860,8 +860,24 @@
     display: flex;
     margin-left: 11%;
     margin-right: 11%;
+    flex-direction: column;
 }
 
+.grid-nav-referents{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.grid-nav-referents > li{
+
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
 /* ----------------------------------------------- */
 
 }
@@ -1205,20 +1221,86 @@
         margin-right: 5px;
     }
 
-    /* ----------------------------------------------- */
+    /* referents*/
+
+.conenidorBodyReferents{
+    display: grid;
+}
+
+#containerGridReferents{
+    display: grid;
+    width: 80%;
+    grid-template-columns: auto auto auto auto;
+    color: rgb(93, 95, 121);
+}
+
+.titol-referents {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navegadorReferents {
+    /* width: 20%; */
+    margin-right: 0px;
+    padding-right: 0px;
+    display: flex;
+}
+
+.navegadorReferents > ul{
+    list-style: none;
+}
+
+.numCientifiques {
+    color: rgb(240, 93, 80);
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.contenidorSeccioReferents {
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 
+.contenidorIndividualRef{
+    margin-bottom: 20px;
+}
 
+.imgRef{
+    width: 250px;
+    height: auto;
+}
 
-/* header */
+.contenidorBodyReferents {
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+    flex-direction: column;
+}
 
+.grid-nav-referents{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
+.grid-nav-referents > li{
 
-
-
-/*-----------------------------------*/
-
-
-
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+    /* ----------------------------------------------- */
+}
 
