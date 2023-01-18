@@ -188,11 +188,15 @@
 
     /* INDEX*/
 
+    #titol-index{
+        text-align: left;
+    }
+
     .contenidorCapçalera {
         margin-top: 65px;
         margin-bottom: 40px;
-        margin-left: 18%;
-        margin-right: 18%;
+        margin-left: 14%;
+        margin-right: 14%;
         background-color: rgb(245, 157, 35);
         display: flex;
         align-items: flex-end;
@@ -253,8 +257,8 @@
     }
 
     .imatgeCientifiquesIndex {
-        width: 275px;
-        height: auto;
+        width: auto;
+        height: 45%;
     }
 
     .grid-cientifiques p {
@@ -525,6 +529,10 @@
     /* ----------------------------------------------- */
 
     /* INDEX*/
+
+    #titol-index{
+        text-align: center;
+    }
 
     .contenidorCapçalera {
         margin-top: 65px;
@@ -863,6 +871,10 @@
     /* ----------------------------------------------- */
 
     /* INDEX*/
+
+    #titol-index{
+        text-align: center;
+    }
 
     .contenidorCapçalera {
         margin-top: 65px;
